@@ -1,0 +1,13 @@
+h2{
+    @extend %tituloSeccion;
+}
+.propiedad-card{
+    max-width: 20rem;
+    background-color: #1a1a1ade;
+    button{
+        @extend %botones;
+    }
+    img{
+        height: 10rem;
+    }
+}
