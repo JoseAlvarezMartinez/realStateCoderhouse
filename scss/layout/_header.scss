@@ -1,0 +1,10 @@
+.index-header {
+  background-image: url(../../img/wallpaperHeader.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  position: relative;
+}
+.btn-header {
+  @extend %botones;
+}
